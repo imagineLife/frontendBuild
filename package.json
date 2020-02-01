@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "wp": "webpack",
-    "build": "npm run wp -- --mode production"
+    "build": "npm run wp -- --mode production",
+    "wds": "webpack-dev-server",
+    "start": "npm run wds -- --mode development --open 'Google Chrome'"
   },
   "repository": {
     "type": "git",
