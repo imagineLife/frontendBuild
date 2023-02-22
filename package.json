@@ -8,7 +8,7 @@
     "wp": "webpack",
     "build": "npm run wp -- --mode production",
     "wds": "webpack-dev-server",
-    "start": "npm run wds -- --mode development --open 'Google Chrome'"
+    "start": "npm run wds -- --mode development"
   },
   "repository": {
     "type": "git",
